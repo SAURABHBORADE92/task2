@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #0b0e2b;
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+aside {
+  background: #e3f2fd;
+  color: black;
+  padding: 20px;
+  width: 250px;
+}
+
+aside input {
+  width: 80%;
+  padding: 5px;
+}
+
+main {
+  padding: 20px;
+  flex: 1;
+}
+
+.current-weather {
+  background: white;
+  color: black;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.forecast {
+  display: flex;
+  gap: 10px;
+}
+
+.forecast-card {
+  background: #2196f3;
+  color: white;
+  padding: 10px;
+  width: 120px;
+  border-radius: 10px;
+}
